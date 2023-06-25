@@ -63,8 +63,7 @@ class LinkedList:
 def process_linked_list(l1,l2):
     sub_val = str(int(get_str_val(l1)) + int(get_str_val(l2)))[::-1]
     s = lst2link(sub_val)
-    print(s.val)
-    print(sub_val,"subvkek")
+    return s
 
 
 class ListNode:
